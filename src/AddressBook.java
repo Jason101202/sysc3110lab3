@@ -16,6 +16,11 @@ public class AddressBook {
 
     public static void main(String[] args) {
         System.out.println("Address book bruh");
+        BuddyInfo bud1 = new BuddyInfo("broseph brosington", "brohamshire, brosylvania", "1-800-brosb4hoes" );
+        AddressBook whereTheBrosAt = new AddressBook();
+        whereTheBrosAt.addBuddy(bud1);
+        whereTheBrosAt.removeBuddy(bud1);
+
     }
 
 
