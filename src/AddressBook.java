@@ -11,6 +11,10 @@ public class AddressBook {
         buddies.add(newBuddy);
     }
 
+    public void theBuddies() {
+        System.out.println(buddies.toString());
+    }
+
     private Boolean removeBuddy(BuddyInfo remBuddy) {
         return buddies.remove(remBuddy);
     }
@@ -23,6 +27,8 @@ public class AddressBook {
         whereTheBrosAt.removeBuddy(bud1);
 
     }
+
+    // we are in the checkoout now yo
 
 
 }
